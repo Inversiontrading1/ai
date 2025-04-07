@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manus Replicator - Tu asistente de IA personal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .card {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .steps {
+            counter-reset: step-counter;
+        }
+        .step {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+        .step:before {
+            content: counter(step-counter);
+            counter-increment: step-counter;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manus Replicator</h1>
+    <p>Tu asistente personal para generar secuencias de prompts optimizados para ChatGPT</p>
+    
+    <div class="card">
+        <h2>¿Cómo funciona?</h2>
+        <div class="steps">
+            <div class="step">Describe tu objetivo en el formulario (por ejemplo: "crear un plan de marketing", "diseñar una rutina de entrenamiento")</div>
+            <div class="step">Nuestro sistema analiza tu objetivo y lo descompone en subtareas manejables</div>
+            <div class="step">Recibirás una secuencia de prompts optimizados para usar en ChatGPT</div>
+            <div class="step">Sigue los prompts en orden para lograr resultados profesionales</div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <h2>Comienza ahora</h2>
+        <p>Haz clic en el botón para acceder al formulario y describir tu objetivo:</p>
+        <a href="TU_ENLACE_DE_GOOGLE_FORMS" class="button">Crear nueva secuencia de prompts</a>
+    </div>
+    
+    <div class="card">
+        <h2>Biblioteca de ejemplos</h2>
+        <p>Explora ejemplos predefinidos para objetivos comunes:</p>
+        <ul>
+            <li><a href="ejemplos/marketing-digital.html">Plan de marketing digital</a></li>
+            <li><a href="ejemplos/producto-digital.html">Lanzamiento de producto digital</a></li>
+            <li><a href="ejemplos/rutina-fitness.html">Rutina de entrenamiento personalizada</a></li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p>© 2025 Manus Replicator - Creado por TU_NOMBRE</p>
+    </footer>
+</body>
+</html>
